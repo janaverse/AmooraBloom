@@ -8,21 +8,38 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
+    rel="stylesheet"
+  />
 </head>
+
 <body>
 
-  <!-- Navbar -->
   <header class="navbar" id="navbar">
     <div class="container navbar__inner">
-      <!-- Logo -->
+
       <div class="navbar__logo">
         <div class="logo-wrap">
-          <svg class="logo-bow" viewBox="0 0 60 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M30 15 C20 5, 5 5, 8 15 C5 25, 20 25, 30 15Z" fill="#e8748a" opacity="0.8"/>
-            <path d="M30 15 C40 5, 55 5, 52 15 C55 25, 40 25, 30 15Z" fill="#e8748a" opacity="0.8"/>
-            <circle cx="30" cy="15" r="4" fill="#e8748a"/>
+          <svg
+            class="logo-bow"
+            viewBox="0 0 60 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 15 C20 5, 5 5, 8 15 C5 25, 20 25, 30 15Z"
+              fill="#e8748a"
+              opacity="0.8"
+            />
+            <path
+              d="M30 15 C40 5, 55 5, 52 15 C55 25, 40 25, 30 15Z"
+              fill="#e8748a"
+              opacity="0.8"
+            />
+            <circle cx="30" cy="15" r="4" fill="#e8748a" />
           </svg>
+
           <div class="logo-text">
             <span class="logo-name">Amoora Bloom</span>
             <span class="logo-tagline">هدايا صُنعت بكل حُب</span>
@@ -30,7 +47,6 @@
         </div>
       </div>
 
-      <!-- Nav Links -->
       <nav class="navbar__links" id="navLinks">
         <a href="#home" class="nav-link active">الرئيسية</a>
         <a href="#categoriesTop" class="nav-link">المنتجات</a>
@@ -38,386 +54,828 @@
         <a href="#contact" class="nav-link">تواصل معنا</a>
       </nav>
 
-      <!-- Cart & Hamburger -->
       <div class="navbar__actions">
         <button class="hamburger" id="hamburger" aria-label="القائمة">
-          <span></span><span></span><span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
       </div>
+
     </div>
   </header>
 
-  <!-- Hero Section -->
   <section class="hero" id="home">
     <section class="hero" id="home">
-  <div id="homeView" style="position: relative; top: 120px;"></div>
-    <!-- Decorative flowers -->
-    <span class="deco deco--flower deco--1">✿</span>
-    <span class="deco deco--flower deco--2">✾</span>
-    <span class="deco deco--heart deco--3">♡</span>
-    <span class="deco deco--flower deco--4">✿</span>
+      <div id="homeView" style="position: relative; top: 120px;"></div>
 
-    <div class="container hero__inner">
-      <div class="hero__content">
-        <h1 class="hero__title">Blooms that never die
- <br/></h1>
-        <p class="hero__desc">
-        نقـدم بوكسـات هدايـا ورد وكيـك بتغلـيف أنيـق وأفكـار مختلـفة، مخصصة عشـان تبقـى ذكرى حلـوة وتوصـل شـعورك بكـل حُـب 
-        </p>
-<a href="#categoriesTop" class="btn btn--primary hero__cta">
-  منتجاتنا
-  <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" style="transform: translateY(-4px);">
-    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
-  </svg>
-</a>
-      </div>
-      <div class="hero__image">
-        <div class="hero__img-wrap">
-          <img
-            src="assets/hero/Amoralogo.png"
-            alt="هدايا جميلة"
-            loading="eager"
-          />
-        </div>
-      </div>
-    </div>
-  </section>
+      <span class="deco deco--flower deco--1">✿</span>
+      <span class="deco deco--flower deco--2">✾</span>
+      <span class="deco deco--heart deco--3">♡</span>
+      <span class="deco deco--flower deco--4">✿</span>
 
-  <!-- Categories Section -->
-  <div id="categoriesTop" style="position: relative; top: -90px;"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Blooms that never die
+            <br />
+          </h1>
 
-  <section class="categories" id="categories">
-    <div class="container">
+          <p class="hero__desc">
+            نقـدم بوكسـات هدايـا ورد وكيـك بتغلـيف أنيـق وأفكـار مختلـفة،
+            مخصصة عشـان تبقـى ذكرى حلـوة وتوصـل شـعورك بكـل حُـب
+          </p>
 
-      <div class="section-header">
-        <h2 class="section-title">
-          <span class="title-deco">♡</span>
-          منتجاتنا
-          <span class="title-deco">♡</span>
-        </h2>
-        <p class="section-subtitle">اختاري القسم المناسب لك</p>
-      </div>
-
-<div class="categories__grid">
-
-  <!-- الأكثر مبيعًا -->
-  <div class="category-item" onclick="location.href='#products'" style="cursor: pointer;">
-    <div class="category-icon">
-      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M24 8l4.2 8.5 9.4 1.4-6.8 6.6 1.6 9.3L24 29.4l-8.4 4.4 1.6-9.3-6.8-6.6 9.4-1.4L24 8z" stroke="#e8748a" stroke-width="2" stroke-linejoin="round"/>
-        <path d="M19 39h10" stroke="#e8748a" stroke-width="2" stroke-linecap="round"/>
-      </svg>
-    </div>
-    <span>الأكثر مبيعًا</span>
-  </div>
-
-  <!-- فازات الورد -->
-  <a href="/pages/flower-vases.html" class="category-item" style="text-decoration: none; color: inherit;">
-    <div class="category-icon">
-      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M17 22h14l-2 18H19l-2-18z" stroke="#e8748a" stroke-width="2" stroke-linejoin="round"/>
-        <path d="M15 22h18" stroke="#e8748a" stroke-width="2" stroke-linecap="round"/>
-        <path d="M24 22V12" stroke="#e8748a" stroke-width="2" stroke-linecap="round"/>
-        <path d="M24 13c-3-5-9-4-9 1 0 4 5 6 9 2" stroke="#e8748a" stroke-width="1.8" stroke-linejoin="round"/>
-        <path d="M24 13c3-5 9-4 9 1 0 4-5 6-9 2" stroke="#e8748a" stroke-width="1.8" stroke-linejoin="round"/>
-      </svg>
-    </div>
-    <span>فازات الورد</span>
-  </a>
-
-  <!-- الدمى -->
-  <div class="category-item" onclick="location.href='/pages/dolls.html'" style="cursor: pointer;">
-    <div class="category-icon">
-      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="17" cy="16" r="5" stroke="#e8748a" stroke-width="2"/>
-        <circle cx="31" cy="16" r="5" stroke="#e8748a" stroke-width="2"/>
-        <circle cx="24" cy="24" r="10" stroke="#e8748a" stroke-width="2"/>
-        <circle cx="21" cy="23" r="1.5" fill="#e8748a"/>
-        <circle cx="27" cy="23" r="1.5" fill="#e8748a"/>
-        <path d="M22 28c1.2 1 2.8 1 4 0" stroke="#e8748a" stroke-width="1.8" stroke-linecap="round"/>
-        <path d="M16 37c2-4 14-4 16 0" stroke="#e8748a" stroke-width="2" stroke-linecap="round"/>
-      </svg>
-    </div>
-    <span>الدمى</span>
-  </div>
-
-  <!-- ورد وكيك -->
-  <div class="category-item" onclick="location.href='pages/rose-cake.html'" style="cursor: pointer;">
-    <div class="category-icon">
-      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M14 26h20v12H14V26z" stroke="#e8748a" stroke-width="2" stroke-linejoin="round"/>
-        <path d="M14 26c2-6 18-6 20 0" stroke="#e8748a" stroke-width="2" stroke-linecap="round"/>
-        <path d="M18 31h12" stroke="#e8748a" stroke-width="1.5" stroke-linecap="round"/>
-        <path d="M24 18v-7" stroke="#e8748a" stroke-width="2" stroke-linecap="round"/>
-        <path d="M24 12c-3-4-8-3-8 1 0 3 4 5 8 2" stroke="#e8748a" stroke-width="1.7" stroke-linejoin="round"/>
-        <path d="M24 12c3-4 8-3 8 1 0 3-4 5-8 2" stroke="#e8748a" stroke-width="1.7" stroke-linejoin="round"/>
-      </svg>
-    </div>
-    <span>ورد وكيك</span>
-  </div>
-
-  <!-- دمية وكيك -->
-  <div class="category-item" onclick="location.href='pages/doll-cake.html'" style="cursor: pointer;">
-    <div class="category-icon">
-      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="18" cy="15" r="4" stroke="#e8748a" stroke-width="2"/>
-        <circle cx="30" cy="15" r="4" stroke="#e8748a" stroke-width="2"/>
-        <circle cx="24" cy="22" r="8" stroke="#e8748a" stroke-width="2"/>
-        <circle cx="21.5" cy="21" r="1.2" fill="#e8748a"/>
-        <circle cx="26.5" cy="21" r="1.2" fill="#e8748a"/>
-        <path d="M20 34h18v6H20v-6z" stroke="#e8748a" stroke-width="2" stroke-linejoin="round"/>
-        <path d="M20 34c2-5 16-5 18 0" stroke="#e8748a" stroke-width="2" stroke-linecap="round"/>
-      </svg>
-    </div>
-    <span>دمية وكيك</span>
-  </div>
-
-  <!-- الميداليات -->
-  <div class="category-item">
-    <div class="category-icon">
-      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="24" cy="27" r="9" stroke="#e8748a" stroke-width="2"/>
-        <path d="M24 18v-7" stroke="#e8748a" stroke-width="2" stroke-linecap="round"/>
-        <circle cx="24" cy="9" r="3" stroke="#e8748a" stroke-width="2"/>
-        <path d="M20 27l3 3 6-7" stroke="#e8748a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M17 39h14" stroke="#e8748a" stroke-width="2" stroke-linecap="round"/>
-      </svg>
-    </div>
-    <span>الميداليات</span>
-  </div>
-
-</div>
-
-  <!-- Products Section -->
-  <section class="products" id="products">
-    <!-- Decorative -->
-    <span class="deco deco--flower deco--5">✿</span>
-    <span class="deco deco--flower deco--6">✾</span>
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">
-          <span class="title-deco">♡</span>
-          الأكثر مبيعًا
-          <span class="title-deco">♡</span>
-        </h2>
-        <p class="section-subtitle">تشكيلة مختارة بعناية من أجلك</p>
-      </div>
-
-      <div class="products__grid" id="productsGrid">
-        <!-- Product 1 -->
-        <div class="product-card" data-id="1">
-          <button class="product-card__wish" aria-label="إضافة للمفضلة">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+          <a href="#categoriesTop" class="btn btn--primary hero__cta">
+            منتجاتنا
+            <svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              width="18"
+              height="18"
+              style="transform: translateY(-4px);"
+            >
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
             </svg>
-          </button>
-          <div class="product-card__img">
-            <img src="assets/product/فازة طبيعي وكيك.jpg" alt=" فازة ورد طبيعي وكيك" loading="lazy"/>
-          </div>
-          <div class="product-card__body">
-            <h3 class="product-card__name">فازة ورد طبيعي وكيك</h3>
-            <p class="product-card__desc"> هدية لطيفة ومميزة لكل شخص يحب الورد وتفاصيله، بتنسيق ناعم وألوان جميلة تناسب ذوقك ومناسبتك 🌸💕
-</p>
-            <div class="product-card__price">190 <span>ر.س</span></div>
-            <a href="pages/product-details.html?id=1" class="btn btn--outline product-card__btn">عرض التفاصيل</a>
-          </div>
+          </a>
         </div>
 
-        <!-- Product 2 -->
-        <div class="product-card" data-id="2">
-          <button class="product-card__wish" aria-label="إضافة للمفضلة">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
-            </svg>
-          </button>
-          <div class="product-card__img">
-            <img src="assets/product/فازة دوار الشمس.jpg" alt=" فازة دوار الشمس" loading="lazy"/>
-          </div>
-          <div class="product-card__body">
-            <h3 class="product-card__name">فازة دوار الشمس مع ميدالية </h3>
-            <p class="product-card__desc">فازة دوّار شمس بتنسيق مشرق وناعم 🌻💛</p>
-            <div class="product-card__price">130 <span>ر.س</span></div>
-            <a href="pages/product-details.html?id=2" class="btn btn--outline product-card__btn">عرض التفاصيل</a>
-          </div>
-        </div>
-
-        <!-- Product 3 -->
-        <div class="product-card" data-id="3">
-          <button class="product-card__wish" aria-label="إضافة للمفضلة">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
-            </svg>
-          </button>
-          <div class="product-card__img">
-            <img src="assets/product/بوكس ورد طبيعي وكيك.jpg" alt="بوكس ورد طبيعي وكيك" loading="lazy"/>
-          </div>
-          <div class="product-card__body">
-            <h3 class="product-card__name">بوكس ورد طبيعي وكيك</h3>
-            <p class="product-card__desc">بوكس ورد وكيك بتنسيق أنيق 💗🎂</p>
-            <div class="product-card__price">210 <span>ر.س</span></div>
-            <a href="pages/product-details.html?id=3" class="btn btn--outline product-card__btn">عرض التفاصيل</a>
-          </div>
-        </div>
-
-        <!-- Product 4 -->
-        <div class="product-card" data-id="4">
-          <button class="product-card__wish" aria-label="إضافة للمفضلة">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
-            </svg>
-          </button>
-          <div class="product-card__img">
-            <img src="assets/product/هيلوكيتي وميدالية.jpg" alt="هيلوكيتي وميدالية" loading="lazy"/>
-          </div>
-          <div class="product-card__body">
-            <h3 class="product-card__name">هيلوكيتي وميدالية</h3>
-            <p class="product-card__desc">هيلوكيتي هدية حلوة ومميزة لأي مُناسبة 🎀💕</p>
-            <div class="product-card__price">100 <span>ر.س</span></div>
-            <a href="pages/product-details.html?id=4" class="btn btn--outline product-card__btn">عرض التفاصيل</a>
+        <div class="hero__image">
+          <div class="hero__img-wrap">
+            <img
+              src="assets/hero/Amoralogo.png"
+              alt="هدايا جميلة"
+              loading="eager"
+            />
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Features Section -->
-  <section class="features" id="features">
-    <div class="container">
-      <div class="features__grid">
-        <div class="feature-item">
-          <div class="feature-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="6" y="20" width="36" height="22" rx="3" stroke="#c8956c" stroke-width="2"/>
-              <path d="M12 20v-4a12 12 0 0124 0v4" stroke="#c8956c" stroke-width="2"/>
-              <circle cx="24" cy="30" r="3" stroke="#c8956c" stroke-width="2"/>
-              <path d="M24 33v5" stroke="#c8956c" stroke-width="2" stroke-linecap="round"/>
-              <path d="M10 14h4M34 14h4" stroke="#c8956c" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <div class="feature-text">
-            <h4>خدمة عملاء</h4>
-            <p>نحن هنا لخدمتكم</p>
-          </div>
+    <div id="categoriesTop" style="position: relative; top: -90px;"></div>
+
+    <section class="categories" id="categories">
+      <div class="container">
+
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="title-deco">♡</span>
+            منتجاتنا
+            <span class="title-deco">♡</span>
+          </h2>
+          <p class="section-subtitle">اختاري القسم المناسب لك</p>
         </div>
 
-        <div class="feature-item">
-          <div class="feature-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="10" y="20" width="28" height="20" rx="3" stroke="#c8956c" stroke-width="2"/>
-              <path d="M10 26h28" stroke="#c8956c" stroke-width="1.5"/>
-              <path d="M24 20v-6" stroke="#c8956c" stroke-width="2"/>
-              <path d="M18 14c0-4 12-4 12 0" stroke="#c8956c" stroke-width="2" stroke-linecap="round"/>
-              <path d="M16 30h6M26 30h6" stroke="#c8956c" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
+        <div class="categories__grid">
+
+          <div
+            class="category-item"
+            onclick="location.href='#products'"
+            style="cursor: pointer;"
+          >
+            <div class="category-icon">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24 8l4.2 8.5 9.4 1.4-6.8 6.6 1.6 9.3L24 29.4l-8.4 4.4 1.6-9.3-6.8-6.6 9.4-1.4L24 8z"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M19 39h10"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <span>الأكثر مبيعًا</span>
           </div>
-          <div class="feature-text">
-            <h4>تغليف فاخر</h4>
-            <p>يصل جاهز للإهداء</p>
+
+          <a
+            href="/pages/flower-vases.html"
+            class="category-item"
+            style="text-decoration: none; color: inherit;"
+          >
+            <div class="category-icon">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17 22h14l-2 18H19l-2-18z"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M15 22h18"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M24 22V12"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M24 13c-3-5-9-4-9 1 0 4 5 6 9 2"
+                  stroke="#e8748a"
+                  stroke-width="1.8"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M24 13c3-5 9-4 9 1 0 4-5 6-9 2"
+                  stroke="#e8748a"
+                  stroke-width="1.8"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <span>فازات الورد</span>
+          </a>
+
+          <div
+            class="category-item"
+            onclick="location.href='/pages/dolls.html'"
+            style="cursor: pointer;"
+          >
+            <div class="category-icon">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="17"
+                  cy="16"
+                  r="5"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                />
+                <circle
+                  cx="31"
+                  cy="16"
+                  r="5"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                />
+                <circle
+                  cx="24"
+                  cy="24"
+                  r="10"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                />
+                <circle cx="21" cy="23" r="1.5" fill="#e8748a" />
+                <circle cx="27" cy="23" r="1.5" fill="#e8748a" />
+                <path
+                  d="M22 28c1.2 1 2.8 1 4 0"
+                  stroke="#e8748a"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M16 37c2-4 14-4 16 0"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <span>الدمى</span>
           </div>
+
+          <div
+            class="category-item"
+            onclick="location.href='pages/rose-cake.html'"
+            style="cursor: pointer;"
+          >
+            <div class="category-icon">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14 26h20v12H14V26z"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M14 26c2-6 18-6 20 0"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M18 31h12"
+                  stroke="#e8748a"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M24 18v-7"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M24 12c-3-4-8-3-8 1 0 3 4 5 8 2"
+                  stroke="#e8748a"
+                  stroke-width="1.7"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M24 12c3-4 8-3 8 1 0 3-4 5-8 2"
+                  stroke="#e8748a"
+                  stroke-width="1.7"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <span>ورد وكيك</span>
+          </div>
+
+          <div
+            class="category-item"
+            onclick="location.href='pages/doll-cake.html'"
+            style="cursor: pointer;"
+          >
+            <div class="category-icon">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="18"
+                  cy="15"
+                  r="4"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                />
+                <circle
+                  cx="30"
+                  cy="15"
+                  r="4"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                />
+                <circle
+                  cx="24"
+                  cy="22"
+                  r="8"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                />
+                <circle cx="21.5" cy="21" r="1.2" fill="#e8748a" />
+                <circle cx="26.5" cy="21" r="1.2" fill="#e8748a" />
+                <path
+                  d="M20 34h18v6H20v-6z"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M20 34c2-5 16-5 18 0"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <span>دمية وكيك</span>
+          </div>
+
+          <div class="category-item">
+            <div class="category-icon">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="24"
+                  cy="27"
+                  r="9"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                />
+                <path
+                  d="M24 18v-7"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <circle
+                  cx="24"
+                  cy="9"
+                  r="3"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                />
+                <path
+                  d="M20 27l3 3 6-7"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M17 39h14"
+                  stroke="#e8748a"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <span>الميداليات</span>
+          </div>
+
         </div>
 
-        <div class="feature-item">
-          <div class="feature-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M8 24h32" stroke="#c8956c" stroke-width="2" stroke-linecap="round"/>
-              <path d="M8 24L20 12" stroke="#c8956c" stroke-width="2" stroke-linecap="round"/>
-              <path d="M8 24L20 36" stroke="#c8956c" stroke-width="2" stroke-linecap="round"/>
-              <circle cx="36" cy="24" r="6" stroke="#c8956c" stroke-width="2"/>
-              <path d="M33 24l2 2 4-4" stroke="#c8956c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+        <section class="products" id="products">
+          <span class="deco deco--flower deco--5">✿</span>
+          <span class="deco deco--flower deco--6">✾</span>
+
+          <div class="container">
+            <div class="section-header">
+              <h2 class="section-title">
+                <span class="title-deco">♡</span>
+                الأكثر مبيعًا
+                <span class="title-deco">♡</span>
+              </h2>
+              <p class="section-subtitle">تشكيلة مختارة بعناية من أجلك</p>
+            </div>
+
+            <div class="products__grid" id="productsGrid">
+
+              <div class="product-card" data-id="1">
+                <button class="product-card__wish" aria-label="إضافة للمفضلة">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+                  </svg>
+                </button>
+
+                <div class="product-card__img">
+                  <img
+                    src="assets/product/فازة طبيعي وكيك.jpg"
+                    alt=" فازة ورد طبيعي وكيك"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__name">فازة ورد طبيعي وكيك</h3>
+                  <p class="product-card__desc">
+                    هدية لطيفة ومميزة لكل شخص يحب الورد وتفاصيله، بتنسيق ناعم وألوان جميلة تناسب ذوقك ومناسبتك 🌸💕
+                  </p>
+                  <div class="product-card__price">
+                    190 <span>ر.س</span>
+                  </div>
+                  <a
+                    href="pages/product-details.html?id=1"
+                    class="btn btn--outline product-card__btn"
+                  >
+                    عرض التفاصيل
+                  </a>
+                </div>
+              </div>
+
+              <div class="product-card" data-id="2">
+                <button class="product-card__wish" aria-label="إضافة للمفضلة">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+                  </svg>
+                </button>
+
+                <div class="product-card__img">
+                  <img
+                    src="assets/product/فازة دوار الشمس.jpg"
+                    alt=" فازة دوار الشمس"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__name">فازة دوار الشمس مع ميدالية</h3>
+                  <p class="product-card__desc">
+                    فازة دوّار شمس بتنسيق مشرق وناعم 🌻💛
+                  </p>
+                  <div class="product-card__price">
+                    130 <span>ر.س</span>
+                  </div>
+                  <a
+                    href="pages/product-details.html?id=2"
+                    class="btn btn--outline product-card__btn"
+                  >
+                    عرض التفاصيل
+                  </a>
+                </div>
+              </div>
+
+              <div class="product-card" data-id="3">
+                <button class="product-card__wish" aria-label="إضافة للمفضلة">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+                  </svg>
+                </button>
+
+                <div class="product-card__img">
+                  <img
+                    src="assets/product/بوكس ورد طبيعي وكيك.jpg"
+                    alt="بوكس ورد طبيعي وكيك"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__name">بوكس ورد طبيعي وكيك</h3>
+                  <p class="product-card__desc">
+                    بوكس ورد وكيك بتنسيق أنيق 💗🎂
+                  </p>
+                  <div class="product-card__price">
+                    210 <span>ر.س</span>
+                  </div>
+                  <a
+                    href="pages/product-details.html?id=3"
+                    class="btn btn--outline product-card__btn"
+                  >
+                    عرض التفاصيل
+                  </a>
+                </div>
+              </div>
+
+              <div class="product-card" data-id="4">
+                <button class="product-card__wish" aria-label="إضافة للمفضلة">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+                  </svg>
+                </button>
+
+                <div class="product-card__img">
+                  <img
+                    src="assets/product/هيلوكيتي وميدالية.jpg"
+                    alt="هيلوكيتي وميدالية"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__name">هيلوكيتي وميدالية</h3>
+                  <p class="product-card__desc">
+                    هيلوكيتي هدية حلوة ومميزة لأي مُناسبة 🎀💕
+                  </p>
+                  <div class="product-card__price">
+                    100 <span>ر.س</span>
+                  </div>
+                  <a
+                    href="pages/product-details.html?id=4"
+                    class="btn btn--outline product-card__btn"
+                  >
+                    عرض التفاصيل
+                  </a>
+                </div>
+              </div>
+
+            </div>
           </div>
-          <div class="feature-text">
-            <h4>جودة مضمونة</h4>
-            <p>منتجات مختارة بعناية</p>
+        </section>
+
+        <section class="features" id="features">
+          <div class="container">
+            <div class="features__grid">
+
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg
+                    viewBox="0 0 48 48"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="6"
+                      y="20"
+                      width="36"
+                      height="22"
+                      rx="3"
+                      stroke="#c8956c"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M12 20v-4a12 12 0 0124 0v4"
+                      stroke="#c8956c"
+                      stroke-width="2"
+                    />
+                    <circle
+                      cx="24"
+                      cy="30"
+                      r="3"
+                      stroke="#c8956c"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M24 33v5"
+                      stroke="#c8956c"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M10 14h4M34 14h4"
+                      stroke="#c8956c"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </div>
+
+                <div class="feature-text">
+                  <h4>خدمة عملاء</h4>
+                  <p>نحن هنا لخدمتكم</p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg
+                    viewBox="0 0 48 48"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="10"
+                      y="20"
+                      width="28"
+                      height="20"
+                      rx="3"
+                      stroke="#c8956c"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M10 26h28"
+                      stroke="#c8956c"
+                      stroke-width="1.5"
+                    />
+                    <path
+                      d="M24 20v-6"
+                      stroke="#c8956c"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M18 14c0-4 12-4 12 0"
+                      stroke="#c8956c"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M16 30h6M26 30h6"
+                      stroke="#c8956c"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </div>
+
+                <div class="feature-text">
+                  <h4>تغليف فاخر</h4>
+                  <p>يصل جاهز للإهداء</p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg
+                    viewBox="0 0 48 48"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 24h32"
+                      stroke="#c8956c"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M8 24L20 12"
+                      stroke="#c8956c"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M8 24L20 36"
+                      stroke="#c8956c"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <circle
+                      cx="36"
+                      cy="24"
+                      r="6"
+                      stroke="#c8956c"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M33 24l2 2 4-4"
+                      stroke="#c8956c"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+
+                <div class="feature-text">
+                  <h4>جودة مضمونة</h4>
+                  <p>منتجات مختارة بعناية</p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg
+                    viewBox="0 0 48 48"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="6"
+                      y="28"
+                      width="28"
+                      height="12"
+                      rx="2"
+                      stroke="#c8956c"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M34 32h4a2 2 0 012 2v4a2 2 0 01-2 2h-4"
+                      stroke="#c8956c"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M14 28V22a8 8 0 0116 0v6"
+                      stroke="#c8956c"
+                      stroke-width="2"
+                    />
+                    <circle cx="22" cy="34" r="2" fill="#c8956c" />
+                    <path
+                      d="M10 22h4"
+                      stroke="#c8956c"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </div>
+
+                <div class="feature-text">
+                  <h4>توصيل فوري</h4>
+                  <p>داخل المدينة</p>
+                </div>
+              </div>
+
+            </div>
           </div>
-        </div>
+        </section>
 
-        <div class="feature-item">
-          <div class="feature-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="6" y="28" width="28" height="12" rx="2" stroke="#c8956c" stroke-width="2"/>
-              <path d="M34 32h4a2 2 0 012 2v4a2 2 0 01-2 2h-4" stroke="#c8956c" stroke-width="2"/>
-              <path d="M14 28V22a8 8 0 0116 0v6" stroke="#c8956c" stroke-width="2"/>
-              <circle cx="22" cy="34" r="2" fill="#c8956c"/>
-              <path d="M10 22h4" stroke="#c8956c" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
+        <section class="whatsapp-cta" id="contact">
+          <span class="deco deco--flower deco--7">✿</span>
+          <span class="deco deco--flower deco--8">✾</span>
+
+          <div class="container whatsapp-cta__inner">
+            <div class="whatsapp-cta__img">
+              <img
+                src="assets/hero/Amoorabloom .png"
+                alt="هدايا"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="whatsapp-cta__content">
+              <h2>عندك طلب خاص؟</h2>
+              <p>نساعدك في تصميم هديتك بالطريقة اللي تناسب مناسبتك</p>
+
+              <a
+                class="btn btn--whatsapp"
+                id="whatsappBtn"
+                href="https://wa.me/966500959110"
+                target="_blank"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  width="22"
+                  height="22"
+                >
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.030-.967-.273-.099-.471-.148-.670.15-.197.297-.767.966-.940 1.164-.173.199-.347.223-.644.075-.297-.150-1.255-.463-2.390-1.475-.883-.788-1.480-1.761-1.653-2.059-.173-.297-.018-.458.130-.606.134-.133.298-.347.446-.520.149-.174.198-.298.298-.497.099-.198.050-.371-.025-.520-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.500-.669-.510-.173-.008-.371-.074-.792.372-.272.297-1.040 1.016-1.040 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.200 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.360.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.570-.347m-5.421 7.403h-.004a9.870 9.870 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.860 9.860 0 01-1.510-5.260c.001-5.450 4.436-9.884 9.888-9.884 2.640 0 5.122 1.030 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.450-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.050 0C5.495 0 .160 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.480-8.413Z" />
+                </svg>
+                تواصل معنا على الواتس اب
+              </a>
+            </div>
           </div>
-          <div class="feature-text">
-            <h4>توصيل فوري</h4>
-            <p>داخل المدينة</p>
+        </section>
+
+        <footer class="footer" id="about">
+          <div class="container footer__inner">
+
+            <div class="footer__social">
+              <a
+                href="https://www.instagram.com/amoora.bloom"
+                class="social-link"
+                aria-label="Instagram"
+                target="_blank"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                </svg>
+              </a>
+
+              <a
+                href="https://www.tiktok.com/@amoora.bloom"
+                class="social-link"
+                aria-label="TikTok"
+                target="_blank"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M9 12a4 4 0 104 4V4a5 5 0 005 5" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="footer__copy">
+              جميع الحقوق محفوظة لدى &copy; 2026 Amoora Bloom
+            </div>
+
+            <div class="footer__heart">
+              <svg
+                viewBox="0 0 24 24"
+                fill="#e8748a"
+                width="20"
+                height="20"
+              >
+                <path d="M20.84 4.61a5.5 5.5 0 00-7.780 0L12 5.67l-1.060-1.060a5.5 5.5 0 00-7.780 7.780l1.060 1.060L12 21.230l7.780-7.780 1.060-1.060a5.5 5.5 0 000-7.780z" />
+              </svg>
+            </div>
+
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        </footer>
 
-  <!-- WhatsApp CTA Section -->
-  <section class="whatsapp-cta" id="contact">
-    <!-- Decorative -->
-    <span class="deco deco--flower deco--7">✿</span>
-    <span class="deco deco--flower deco--8">✾</span>
-
-    <div class="container whatsapp-cta__inner">
-      <div class="whatsapp-cta__img">
-        <img src="assets/hero/Amoorabloom .png" alt="هدايا" loading="lazy"/>
-      </div>
-
-      <div class="whatsapp-cta__content">
-        <h2>عندك طلب خاص؟</h2>
-        <p>نساعدك في تصميم هديتك بالطريقة اللي تناسب مناسبتك</p>
-
-        <a class="btn btn--whatsapp" id="whatsappBtn"
-           href="https://wa.me/966500959110"
-           target="_blank">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.030-.967-.273-.099-.471-.148-.670.15-.197.297-.767.966-.940 1.164-.173.199-.347.223-.644.075-.297-.150-1.255-.463-2.390-1.475-.883-.788-1.480-1.761-1.653-2.059-.173-.297-.018-.458.130-.606.134-.133.298-.347.446-.520.149-.174.198-.298.298-.497.099-.198.050-.371-.025-.520-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.500-.669-.510-.173-.008-.371-.010-.570-.010-.198 0-.520.074-.792.372-.272.297-1.040 1.016-1.040 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.200 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.360.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.570-.347m-5.421 7.403h-.004a9.870 9.870 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.860 9.860 0 01-1.510-5.260c.001-5.450 4.436-9.884 9.888-9.884 2.640 0 5.122 1.030 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.450-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.050 0C5.495 0 .160 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.480-8.413Z"/>
+        <a
+          class="float-whatsapp"
+          id="floatWhatsapp"
+          aria-label="واتساب"
+          href="https://wa.me/966500959110"
+          target="_blank"
+        >
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.030-.967-.273-.099-.471-.148-.670.150-.197.297-.767.966-.940 1.164-.173.199-.347.223-.644.075-.297-.150-1.255-.463-2.390-1.475-.883-.788-1.480-1.761-1.653-2.059-.173-.297-.018-.458.130-.606.134-.133.298-.347.446-.520.149-.198.198-.298.298-.497.099-.198.050-.371-.025-.520-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.500-.669-.510-.173-.008-.371-.010-.570-.010-.198 0-.520.074-.792.372-.272.297-1.040 1.016-1.040 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.200 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.360.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.570-.347m-5.421 7.403h-.004a9.870 9.870 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.860 9.860 0 01-1.510-5.260c.001-5.450 4.436-9.884 9.888-9.884 2.640 0 5.122 1.030 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.450-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.050 0C5.495 0 .160 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.480-8.413Z" />
           </svg>
-          تواصل معنا على الواتس اب
         </a>
+
+        <script src="script.js"></script>
+
       </div>
-    </div>
+    </section>
   </section>
 
-  <!-- Footer -->
-  <footer class="footer" id="about">
-    <div class="container footer__inner">
-      <div class="footer__social">
-        <a href="https://www.instagram.com/amoora.bloom" class="social-link" aria-label="Instagram" target="_blank">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
-            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-          </svg>
-        </a>
-
-        <a href="https://www.tiktok.com/@amoora.bloom" class="social-link" aria-label="TikTok" target="_blank">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M9 12a4 4 0 104 4V4a5 5 0 005 5"/>
-          </svg>
-        </a>
-      </div>
-
-      <div class="footer__copy">
-        جميع الحقوق محفوظة لدى &copy; 2026 Amoora Bloom
-      </div>
-
-      <div class="footer__heart">
-        <svg viewBox="0 0 24 24" fill="#e8748a" width="20" height="20">
-          <path d="M20.84 4.61a5.5 5.5 0 00-7.780 0L12 5.67l-1.060-1.060a5.5 5.5 0 00-7.780 7.780l1.060 1.060L12 21.230l7.780-7.780 1.060-1.060a5.5 5.5 0 000-7.780z"/>
-        </svg>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Floating WhatsApp Button -->
-  <a class="float-whatsapp" id="floatWhatsapp" aria-label="واتساب"
-     href="https://wa.me/966500959110"
-     target="_blank">
-    <svg viewBox="0 0 24 24" fill="currentColor">
-      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.030-.967-.273-.099-.471-.148-.670.150-.197.297-.767.966-.940 1.164-.173.199-.347.223-.644.075-.297-.150-1.255-.463-2.390-1.475-.883-.788-1.480-1.761-1.653-2.059-.173-.297-.018-.458.130-.606.134-.133.298-.347.446-.520.149-.174.198-.298.298-.497.099-.198.050-.371-.025-.520-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.500-.669-.510-.173-.008-.371-.010-.570-.010-.198 0-.520.074-.792.372-.272.297-1.040 1.016-1.040 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.200 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.360.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.570-.347m-5.421 7.403h-.004a9.870 9.870 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.860 9.860 0 01-1.510-5.260c.001-5.450 4.436-9.884 9.888-9.884 2.640 0 5.122 1.030 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.450-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.050 0C5.495 0 .160 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.480-8.413Z"/>
-    </svg>
-  </a>
-
-  <script src="script.js"></script>
 </body>
 </html>
