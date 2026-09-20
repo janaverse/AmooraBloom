@@ -1029,14 +1029,18 @@ ul {
   }
 
   .categories__grid {
-    justify-content: flex-start;
-    overflow-x: auto;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 8px;
+    overflow: visible;
+    flex-wrap: unset;
     padding-bottom: 8px;
   }
 
   .category-item {
-    flex-shrink: 0;
+    min-width: 0;
+    flex-shrink: unset;
   }
 
   .hero__title {
