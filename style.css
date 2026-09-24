@@ -1312,10 +1312,7 @@ ul {
   font-weight: 700;
 }
 
-@media (max-width: 600px) {
-  .verification-banner {
-    padding: 10px 15px;
-  }
+
 
   .verification-banner__content {
     gap: 8px;
