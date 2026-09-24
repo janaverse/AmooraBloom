@@ -1262,6 +1262,8 @@ ul {
   background: linear-gradient(135deg, #fff7f9 0%, #fffaf0 100%);
   border-bottom: 1px solid rgba(232, 116, 138, 0.15);
   padding: 12px 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .verification-banner__content {
