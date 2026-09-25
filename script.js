@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = '9665XXXXXXXX';
+const WHATSAPP_NUMBER = '966500959110';
 const WHATSAPP_MESSAGE = 'مرحباً، أود الاستفسار عن المنتجات والطلب عبر واتساب 😊';
 
 function openWhatsApp(customMessage) {
