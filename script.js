@@ -3,35 +3,39 @@ const WHATSAPP_MESSAGE = 'مرحباً، أود الاستفسار عن المن
 
 function openWhatsApp(customMessage) {
   const msg = encodeURIComponent(customMessage || WHATSAPP_MESSAGE);
-  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`, '_blank');
+  window.location.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
 }
 
 const navbar = document.getElementById('navbar');
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('navLinks');
 
-window.addEventListener('scroll', () => {
-  navbar.classList.toggle('scrolled', window.scrollY > 20);
-});
-
-hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active');
-  navLinks.classList.toggle('open');
-});
-
-navLinks.querySelectorAll('.nav-link').forEach(link => {
-  link.addEventListener('click', () => {
-    hamburger.classList.remove('active');
-    navLinks.classList.remove('open');
+if (navbar) {
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 20);
   });
-});
+}
 
-document.addEventListener('click', e => {
-  if (!navbar.contains(e.target)) {
-    hamburger.classList.remove('active');
-    navLinks.classList.remove('open');
-  }
-});
+if (hamburger && navLinks) {
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('open');
+  });
+
+  navLinks.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      navLinks.classList.remove('open');
+    });
+  });
+
+  document.addEventListener('click', e => {
+    if (navbar && !navbar.contains(e.target)) {
+      hamburger.classList.remove('active');
+      navLinks.classList.remove('open');
+    }
+  });
+}
 
 const whatsappBtn = document.getElementById('whatsappBtn');
 const floatWhatsapp = document.getElementById('floatWhatsapp');
