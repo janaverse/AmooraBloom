@@ -1,5 +1,5 @@
 const WHATSAPP_NUMBER = '966500959110';
-const WHATSAPP_MESSAGE = 'مرحباً، أود الاستفسار عن المنتجات والطلب عبر واتساب 😊';
+const WHATSAPP_MESSAGE = 'مرحبًا، حابة أستفسر عن المنتجات والطلب 🌷';
 
 function openWhatsApp(customMessage) {
   const msg = encodeURIComponent(customMessage || WHATSAPP_MESSAGE);
