@@ -133,10 +133,25 @@ ul {
 }
 
 .btn--whatsapp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   background: var(--whatsapp);
   color: #fff;
   box-shadow: 0 4px 16px rgba(37, 211, 102, 0.3);
   font-size: 1.05rem;
+}
+
+.btn--whatsapp svg {
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  min-height: 22px;
+  max-width: 22px;
+  max-height: 22px;
+  display: block;
+  flex: 0 0 22px;
 }
 
 .btn--whatsapp:hover {
@@ -935,6 +950,9 @@ ul {
   height: 58px;
   min-width: 58px;
   min-height: 58px;
+  max-width: 58px;
+  max-height: 58px;
+  padding: 0;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   background: var(--whatsapp);
@@ -942,6 +960,9 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  line-height: 0;
   box-shadow: 0 6px 20px rgba(37, 211, 102, 0.45);
   transition:
     transform var(--transition),
@@ -954,8 +975,12 @@ ul {
   height: 30px;
   min-width: 30px;
   min-height: 30px;
+  max-width: 30px;
+  max-height: 30px;
   display: block;
-  flex-shrink: 0;
+  flex: 0 0 30px;
+  margin: 0;
+  padding: 0;
 }
 
 .float-whatsapp:hover {
@@ -1155,6 +1180,43 @@ ul {
 
   .hero__title {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .float-whatsapp {
+    width: 52px;
+    height: 52px;
+    min-width: 52px;
+    min-height: 52px;
+    max-width: 52px;
+    max-height: 52px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .float-whatsapp svg {
+    width: 27px;
+    height: 27px;
+    min-width: 27px;
+    min-height: 27px;
+    max-width: 27px;
+    max-height: 27px;
+    flex: 0 0 27px;
+  }
+
+  .btn--whatsapp {
+    gap: 9px;
+  }
+
+  .btn--whatsapp svg {
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    min-height: 22px;
+    max-width: 22px;
+    max-height: 22px;
+    flex: 0 0 22px;
   }
 }
 
